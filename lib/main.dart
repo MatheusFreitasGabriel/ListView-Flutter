@@ -79,6 +79,7 @@ class MyApp extends StatelessWidget {
             Expanded(
               flex: 4,
                 child: ListView(
+                  scrollDirection: Axis.vertical,
               children: [
                 Container(
                   margin: EdgeInsets.all(20),
